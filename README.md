@@ -15,7 +15,11 @@ Not included in this repo due to size — download from the link above and place
 - Power analysis given group imbalance
 
 ## Findings
-_(to be filled in as analysis progresses)_
+- Users shown ads converted at 2.55% vs 1.79% for the PSA group — a 0.77 percentage point (43% relative) lift.
+- This difference is highly statistically significant (two-proportion z-test, p < 0.001), with a 95% CI of (0.60, 0.94) percentage points for the absolute lift.
+- The effect holds after controlling for total ad exposure and day of week using logistic regression (OR ≈ 1.47, p < 0.001), indicating the lift is attributable to ad content itself rather than confounding factors.
+- Day of week significantly affects conversion independent of treatment — Monday and Tuesday show notably higher conversion than other days, a secondary insight worth further investigation.
+- **Business takeaway:** the ad campaign meaningfully outperforms the PSA and the effect is robust — recommend continuing/scaling the ad campaign, with potential to further optimize by day-of-week targeting.
 
 ## How to Reproduce
 1. Clone this repo
